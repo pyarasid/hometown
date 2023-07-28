@@ -1,0 +1,137 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hero{
+    display: flex;
+    background-image: url("images/Mahesh-vilas-palace.jpg");
+    background-size: cover;
+    width: 720px;
+    height: 343px;    
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.welcome-msg{ 
+    width: 225px;
+    height: 42px;
+    margin-top: 119px;
+    margin-left: 247px;
+    margin-bottom: 2px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    background: #1D3557; 
+    font-size: 32pX;  
+    font-family: Arial, Helvetica, sans-serif;
+    padding:3px 12px 0px 12px;
+    
+    
+}
+
+.welcome-txt{    
+    padding: 2px 30px 0px 30px;  
+    margin-left: 135px;   
+    margin-top: 10px;
+    font-weight: 700;
+    background: #457B9D;
+    border-radius: 10px;  
+    width: 412px;
+    height:48px;    
+    color: #FFFFFF;
+    font-size: 19px;  
+    
+}
+
+.activities-rbl{
+    color: #1D3557;
+    width: 439px;
+    height: 20px;
+    margin-left: 140px;
+    padding-top: 39px;
+    font-size: 24px;
+}
+
+#scnd-sec{
+    background: #F1FAEE;
+    background-position: center;
+    width: 720px;
+    height: 378px;
+    margin-top: -24px;
+    color: #1D3557;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+#scnd-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#guide-sec{
+    width: 400px;
+    height: 294px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    justify-content: center;
+    align-items: center;  
+    background: #A8DADC;   
+    border-bottom: 6px solid #1D3557;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#guide-img{
+    width: 180px;
+    height: 249px;
+    border-radius: 10%;
+    margin-left: 13px;
+}
+
+#card-text{
+    color: #1D3557;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.guide-head{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.guide-para{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+}
+
+.guide-name{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
